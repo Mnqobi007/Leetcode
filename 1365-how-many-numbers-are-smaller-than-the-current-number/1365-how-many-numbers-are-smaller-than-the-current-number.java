@@ -8,8 +8,8 @@ class Solution {
                 if(nums[j] < nums[i]){
                      count++;
                 }
-                smallerCount[i] = count;
             }
+            smallerCount[i] = count;
             count = 0;
         } 
         return smallerCount;
